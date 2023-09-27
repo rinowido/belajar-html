@@ -1,5 +1,7 @@
 <html>
 
+<head><tittle><h2>Form Registrasi</h2></tittle></head>
+
 <body>
 
 <form>
@@ -20,9 +22,9 @@ Password: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <input type="password" name="password">
 
-</p>
+<br>
 
-<p>Jenis Kelamin :
+Jenis Kelamin :
 
 <label>
 
@@ -36,9 +38,11 @@ Laki-Laki</label>
 
 Perempuan</label>
 
-</p>
+<br>
 
-<p>Hobi :
+Hobi :
+
+<br>
 
 <label>
 
@@ -57,22 +61,40 @@ Game</label>
 <input name="checkbox" type="checkbox" value="checkbox">
 
 Tidur</label>
-</p>
   
-<p>Deskripsikan diri anda:
+<br>
   
-<p>
-  
-<input type="text" name="Deskripsikan diri anda:">
-  
-</p>
+<label for="description">Deskripsikan diri anda:</label>
+
+<br>
+
+<textarea name="description" required></textarea>
+
+<hr>
 
 <p>
 
-<input name="btnKirim" type="submit"id="btnKirim" value="Kirim">
+Dari mana anda mendengar kami?
 
-<input name="btnCancel" type="reset"id="btnCancel" value="Cancel">
-</p>
+<br>
+
+<select name="Dari mana anda mendengar kami?">
+
+<option value="Dari dalam kubur"selected>Dari dalam kubur
+                
+<option value="Dari jobstreet">Dari jobstreet
+                
+<option value="Dari ulti emak-emak">Dari ulti emak-emak
+                
+<option value="Dari curhatan tetangga">Dari curhatan tetangga
+
+</select>
+
+<br>
+
+<input name="btnDaftar" type="submit"id="btnDaftar" value="Daftar">
+
+<input name="btnReset" type="reset"id="btnReset" value="Reset">
 
 </form>
 
