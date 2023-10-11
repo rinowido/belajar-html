@@ -4,11 +4,11 @@
    padding: 5px;
 }
 .new-roma{
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif;
 }
 #header{
-    background: teal;
-    color: white;
+    background:teal;
+    color:white;
     height: 100px;
     padding: 50px;
 }
