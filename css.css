@@ -12,3 +12,9 @@
     height: 100px;
     padding: 50px;
 }
+input[type=text] {
+    background:none;
+    color:cyan;
+    padding:10px;
+    border:1px;
+}
