@@ -34,7 +34,7 @@ p {
 .colorful-link {
     color: #0077cc; /* Hex */
     text-decoration: none;
-    transition: color 5.3s ease-in-out; /* Efek transisi warna selama 0.3 detik */
+    transition: color 0.3s ease-in-out; /* Efek transisi warna selama 0.3 detik */
 }
 
 .colorful-link:hover {
