@@ -4,7 +4,7 @@ body {
 }
 
 .colored-heading {
-    color: rgb(12, 12, 12); /* Hex */
+    color: rgb(12, 12, 12); 
     text-align: center;
 }
 
@@ -14,31 +14,31 @@ p {
 }
 
 .teal {
-    color: teal; /* Named color */
+    color: teal;
 }
 
 .purple {
-    color: rgb(128, 0, 128); /* RGB */
+    color: rgb(128, 0, 128); 
 }
 
 .green {
-    color: rgba(0, 128, 0, 0.7); /* RGBA */
+    color: rgba(0, 128, 0, 0.7);
 }
 
 .orange {
-    color: hsl(30, 100%, 50%); /* HSL */
+    color: hsl(30, 100%, 50%); 
 }
 
 .blue {
-    color: hsla(210, 100%, 50%, 0.7); /* HSLA */
+    color: hsla(210, 100%, 50%, 0.7); 
 }
 
 .colorful-link {
-    color: #0077cc; /* Hex */
+    color: #0077cc; 
     text-decoration: none;
-    transition: color 0.3s ease-in-out; /* Efek transisi warna selama 0.3 detik */
+    transition: color 0.3s ease-in-out; 
 }
 
 .colorful-link:hover {
-    color: hsl(347, 100%, 40%); /* HSL for hover effect */
+    color: hsl(347, 100%, 40%); 
 }
