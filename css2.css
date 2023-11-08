@@ -4,7 +4,8 @@ body {
 }
 
 .colored-heading {
-    color: lightgray; /* Hex */
+    color: rgb(12, 12, 12); /* Hex */
+    text-align: center;
 }
 
 p {
