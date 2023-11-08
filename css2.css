@@ -1,9 +1,10 @@
 body {
     font-family: 'Arial', sans-serif;
+    background-color: lightblue;
 }
 
 .colored-heading {
-    color: #ff5733; /* Hex */
+    color: lightgray; /* Hex */
 }
 
 p {
