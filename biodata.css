@@ -1,0 +1,4 @@
+body {
+    background-image: url('your_svg_background.svg'); /* Replace 'your_svg_background.svg' with your actual SVG file */
+    background-size: cover;
+}

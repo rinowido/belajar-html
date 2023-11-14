@@ -42,3 +42,16 @@ p {
 .colorful-link:hover {
     color: hsl(347, 100%, 40%); 
 }
+body {
+    background-image: url('your_background_image.jpg');
+    background-size: cover;
+}
+
+.header {
+    background-color: #ffa07a; /* LightSalmon background color */
+    padding: 20px; /* Add padding for better visibility */
+}
+
+.colored-heading {
+    color: #fff; /* White text color for better contrast on the colored background */
+}
